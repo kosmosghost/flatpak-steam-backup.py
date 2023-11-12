@@ -4,6 +4,9 @@
 
 This is a super simple script that will backup steam game files from the default Steam flatpak directory to a backup directory.
 
+THS SCRIPT HAS NOT YET BEEN FULLY TESTED!!!
+USE AT YOUR OWN DISCRETION!
+
 ## Requirements:
 
 The only requirements are:
