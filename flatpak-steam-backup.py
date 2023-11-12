@@ -1,6 +1,5 @@
 #!/bin/python3
 
-
 import os
 import sys
 from os import listdir
@@ -21,6 +20,9 @@ def help():
     print("--help\t\tShow help menu.")
 
 def restore(path):
+    if os.path.isdir(steam_game_dir) != True:
+        print(steam_game_dir + "DOES NOT EXIST!!!")
+    check_if_path_valid(steam_game_dir)
     subprocess.call(["rsync", "-axP", "--delete", path, steam_game_dir])
 
 def backup(path):
