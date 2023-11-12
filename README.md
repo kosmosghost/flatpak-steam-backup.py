@@ -17,10 +17,14 @@ The only requirements are:
 ## Usage:
 
 Usage:
+
 flatpak-steam-backup.py <OPTIONS> <PATH>
 
 Options:
+
 --backup        Backs up game files from Steam directory TO <PATH>
+
 --restore       Restores game files TO Steam directory FROM <PATH>
+
 --help          Show help menu.
 
